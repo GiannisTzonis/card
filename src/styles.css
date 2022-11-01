@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: whitesmoke;
+  background-color: bisque;
   margin: 0;
   font-family: "Inter", sans-serif;
 }
@@ -16,6 +16,7 @@ main {
 }
 
 .card {
+  background: rgb(172, 143, 199);
   width: 200px;
   border: 1px solid lightgray;
   border-radius: 10px;
@@ -33,7 +34,7 @@ main {
 
 .card--name {
   margin-block: 13px;
-  color: #333333;
+  color: #d1dc5e;
 }
 
 .card--info {
@@ -47,6 +48,6 @@ main {
 
 .card--contact {
   font-size: 0.75rem;
-  color: gray;
+  color: rgb(88, 47, 47);
   margin-block: 7px;
 }
