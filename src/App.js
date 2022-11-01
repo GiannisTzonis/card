@@ -20,7 +20,7 @@ export default function App() {
   return (
     <main>
       <article className="card">
-        <img src="./images/user.png" className="card--image" />
+        <img src="./images/user.jpg" className="card--image" />
         <div className="card--info">
           <Star isFilled={contact.isFavorite} handleClick={toggleFavorite} />
           <h2 className="card--name">
